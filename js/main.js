@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
       var subject = encodeURIComponent('New inquiry from CRCRFS LLC website');
       var body = encodeURIComponent(lines.join('\n'));
-      window.location.href = 'mailto:mailyn@stonegaitllc.com?subject=' + subject + '&body=' + body;
+      window.location.href = 'mailto:crcrfs@gmail.com?subject=' + subject + '&body=' + body;
     });
   }
 });
